@@ -1,0 +1,515 @@
+
+2023-07-24 00:48:43,101:main.py:<module>:INFO:Initializing full pipeline:
+2023-07-24 00:48:43,101:main.py:<module>:INFO:Loading, filtering and labeling data:
+2023-07-24 00:48:43,103:load_n_filter.py:load_and_filter_files:INFO:Converting 40 pcap files to csv
+:
+2023-07-24 00:48:43,104:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,104:load_n_filter.py:load_and_filter_files:INFO:benign-dec.pcap already converted
+:
+2023-07-24 00:48:43,105:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,106:load_n_filter.py:load_and_filter_files:INFO:dos-synflooding-1-dec.pcap already converted
+:
+2023-07-24 00:48:43,107:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,107:load_n_filter.py:load_and_filter_files:INFO:dos-synflooding-2-dec.pcap already converted
+:
+2023-07-24 00:48:43,108:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,109:load_n_filter.py:load_and_filter_files:INFO:dos-synflooding-3-dec.pcap already converted
+:
+2023-07-24 00:48:43,110:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,110:load_n_filter.py:load_and_filter_files:INFO:dos-synflooding-4-dec.pcap already converted
+:
+2023-07-24 00:48:43,111:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,111:load_n_filter.py:load_and_filter_files:INFO:dos-synflooding-5-dec.pcap already converted
+:
+2023-07-24 00:48:43,112:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,112:load_n_filter.py:load_and_filter_files:INFO:mirai-ackflooding-1-dec.pcap already converted
+:
+2023-07-24 00:48:43,113:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,113:load_n_filter.py:load_and_filter_files:INFO:mirai-ackflooding-2-dec.pcap already converted
+:
+2023-07-24 00:48:43,114:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,115:load_n_filter.py:load_and_filter_files:INFO:mirai-ackflooding-3-dec.pcap already converted
+:
+2023-07-24 00:48:43,116:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,116:load_n_filter.py:load_and_filter_files:INFO:mirai-ackflooding-4-dec.pcap already converted
+:
+2023-07-24 00:48:43,117:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,118:load_n_filter.py:load_and_filter_files:INFO:mirai-hostbruteforce-1-dec.pcap already converted
+:
+2023-07-24 00:48:43,119:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,120:load_n_filter.py:load_and_filter_files:INFO:mirai-hostbruteforce-2-dec.pcap already converted
+:
+2023-07-24 00:48:43,121:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,121:load_n_filter.py:load_and_filter_files:INFO:mirai-hostbruteforce-4-dec.pcap already converted
+:
+2023-07-24 00:48:43,122:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,122:load_n_filter.py:load_and_filter_files:INFO:mirai-hostbruteforce-5-dec.pcap already converted
+:
+2023-07-24 00:48:43,123:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,124:load_n_filter.py:load_and_filter_files:INFO:mirai-httpflooding-1-dec.pcap already converted
+:
+2023-07-24 00:48:43,125:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,125:load_n_filter.py:load_and_filter_files:INFO:mirai-httpflooding-2-dec.pcap already converted
+:
+2023-07-24 00:48:43,126:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,126:load_n_filter.py:load_and_filter_files:INFO:mirai-httpflooding-3-dec.pcap already converted
+:
+2023-07-24 00:48:43,127:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,128:load_n_filter.py:load_and_filter_files:INFO:mirai-httpflooding-4-dec.pcap already converted
+:
+2023-07-24 00:48:43,129:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,129:load_n_filter.py:load_and_filter_files:INFO:mirai-udpflooding-1-dec.pcap already converted
+:
+2023-07-24 00:48:43,130:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,130:load_n_filter.py:load_and_filter_files:INFO:mirai-udpflooding-2-dec.pcap already converted
+:
+2023-07-24 00:48:43,131:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,131:load_n_filter.py:load_and_filter_files:INFO:mirai-udpflooding-3-dec.pcap already converted
+:
+2023-07-24 00:48:43,132:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,133:load_n_filter.py:load_and_filter_files:INFO:mirai-udpflooding-4-dec.pcap already converted
+:
+2023-07-24 00:48:43,134:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,134:load_n_filter.py:load_and_filter_files:INFO:mitm-arpspoofing-1-dec.pcap already converted
+:
+2023-07-24 00:48:43,135:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,135:load_n_filter.py:load_and_filter_files:INFO:mitm-arpspoofing-2-dec.pcap already converted
+:
+2023-07-24 00:48:43,136:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,137:load_n_filter.py:load_and_filter_files:INFO:mitm-arpspoofing-3-dec.pcap already converted
+:
+2023-07-24 00:48:43,138:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,138:load_n_filter.py:load_and_filter_files:INFO:mitm-arpspoofing-4-dec.pcap already converted
+:
+2023-07-24 00:48:43,139:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,139:load_n_filter.py:load_and_filter_files:INFO:mitm-arpspoofing-5-dec.pcap already converted
+:
+2023-07-24 00:48:43,140:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,140:load_n_filter.py:load_and_filter_files:INFO:mitm-arpspoofing-6-dec.pcap already converted
+:
+2023-07-24 00:48:43,142:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,142:load_n_filter.py:load_and_filter_files:INFO:scan-hostport-1-dec.pcap already converted
+:
+2023-07-24 00:48:43,143:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,143:load_n_filter.py:load_and_filter_files:INFO:scan-hostport-2-dec.pcap already converted
+:
+2023-07-24 00:48:43,144:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,144:load_n_filter.py:load_and_filter_files:INFO:scan-hostport-3-dec.pcap already converted
+:
+2023-07-24 00:48:43,145:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,145:load_n_filter.py:load_and_filter_files:INFO:scan-hostport-4-dec.pcap already converted
+:
+2023-07-24 00:48:43,315:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,316:load_n_filter.py:load_and_filter_files:INFO:scan-hostport-5-dec.pcap already converted
+:
+2023-07-24 00:48:43,318:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,319:load_n_filter.py:load_and_filter_files:INFO:scan-hostport-6-dec.pcap already converted
+:
+2023-07-24 00:48:43,327:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,327:load_n_filter.py:load_and_filter_files:INFO:scan-portos-1-dec.pcap already converted
+:
+2023-07-24 00:48:43,328:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,328:load_n_filter.py:load_and_filter_files:INFO:scan-portos-2-dec.pcap already converted
+:
+2023-07-24 00:48:43,329:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,330:load_n_filter.py:load_and_filter_files:INFO:scan-portos-3-dec.pcap already converted
+:
+2023-07-24 00:48:43,331:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,331:load_n_filter.py:load_and_filter_files:INFO:scan-portos-4-dec.pcap already converted
+:
+2023-07-24 00:48:43,332:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,332:load_n_filter.py:load_and_filter_files:INFO:scan-portos-5-dec.pcap already converted
+:
+2023-07-24 00:48:43,333:load_n_filter.py:load_and_filter_files:INFO:'pick_up' set to continue from last run:
+2023-07-24 00:48:43,333:load_n_filter.py:load_and_filter_files:INFO:scan-portos-6-dec.pcap already converted
+:
+2023-07-24 00:48:43,335:load_n_filter.py:load_and_filter_files:INFO:
+40 pcap files labelled and saved to csv
+0 files could not be converted. Read terminal logs for details:
+2023-07-24 00:48:43,335:load_n_filter.py:load_and_filter_files:INFO:Merge set to True:
+2023-07-24 00:48:43,335:load_n_filter.py:load_and_filter_files:INFO:Merging 40 csv files...:
+2023-07-24 00:55:03,988:load_n_filter.py:load_and_filter_files:INFO:|| 40 csv files merged and saved to ./data/labelled ||:
+2023-07-24 00:55:03,993:main.py:<module>:INFO:Loading, filtering and labeling complete:
+2023-07-24 00:55:03,994:main.py:<module>:INFO:Preprocessing and splitting data:
+2023-07-24 01:00:10,510:main.py:<module>:INFO:Preprocessing and splitting complete:
+2023-07-24 01:00:10,511:main.py:<module>:INFO:Training model:
+2023-07-24 01:01:23,656:main.py:<module>:INFO:Model training complete:
+2023-07-24 01:01:23,657:main.py:<module>:INFO:Evaluating model:
+2023-07-24 01:01:35,767:main.py:<module>:INFO:Model evaluation complete:
+2026-03-15 21:35:18,269:main.py:<module>:INFO:Initializing full pipeline:
+2026-03-15 21:35:18,269:main.py:<module>:INFO:Loading, filtering and labeling data:
+2026-03-15 21:35:18,269:load_n_filter.py:load_and_filter_files:INFO:Converting 0 pcap files to csv
+:
+2026-03-15 21:35:18,269:load_n_filter.py:load_and_filter_files:INFO:
+0 pcap files labelled and saved to csv
+0 files could not be converted. Read terminal logs for details:
+2026-03-15 21:35:18,269:load_n_filter.py:load_and_filter_files:INFO:Merge set to True:
+2026-03-15 21:35:18,269:load_n_filter.py:load_and_filter_files:INFO:Merging 0 csv files...:
+2026-03-15 21:35:18,277:load_n_filter.py:load_and_filter_files:INFO:|| 0 csv files merged and saved to ./data/labelled ||:
+2026-03-15 21:35:18,277:main.py:<module>:INFO:Loading, filtering and labeling complete:
+2026-03-15 21:35:18,277:main.py:<module>:INFO:Preprocessing and splitting data:
+2026-03-15 21:35:18,285:main.py:<module>:WARNING:Error preprocessing and splitting data:
+[Errno 2] No such file or directory: './data/labelled/all_data_labelled.csv':
+2026-03-15 21:35:18,285:main.py:<module>:INFO:Training model:
+2026-03-15 21:35:18,320:main.py:<module>:WARNING:Error training model:
+./data/processed/X_train_scaled.csv not found.:
+2026-03-15 21:35:18,320:main.py:<module>:INFO:Evaluating model:
+2026-03-15 21:35:18,320:main.py:<module>:WARNING:Error evaluating model:
+name 'train_time' is not defined:
+2026-03-15 22:16:34,623:main.py:<module>:INFO:Initializing full pipeline:
+2026-03-15 22:16:34,623:main.py:<module>:INFO:Loading, filtering and labeling data:
+2026-03-15 22:16:34,623:load_n_filter.py:load_and_filter_files:INFO:Converting 0 pcap files to csv
+:
+2026-03-15 22:16:34,626:load_n_filter.py:load_and_filter_files:INFO:
+0 pcap files labelled and saved to csv
+0 files could not be converted. Read terminal logs for details:
+2026-03-15 22:16:34,627:load_n_filter.py:load_and_filter_files:INFO:Merge set to True:
+2026-03-15 22:16:34,627:load_n_filter.py:load_and_filter_files:INFO:Merging 0 csv files...:
+2026-03-15 22:16:34,631:load_n_filter.py:load_and_filter_files:INFO:|| 0 csv files merged and saved to ./data/labelled ||:
+2026-03-15 22:16:34,634:main.py:<module>:INFO:Loading, filtering and labeling complete:
+2026-03-15 22:16:34,634:main.py:<module>:INFO:Preprocessing and splitting data:
+2026-03-15 22:16:34,638:main.py:<module>:WARNING:Error preprocessing and splitting data:
+[Errno 2] No such file or directory: './data/labelled/all_data_labelled.csv':
+2026-03-15 22:16:34,638:main.py:<module>:INFO:Training model:
+2026-03-15 22:16:34,723:main.py:<module>:WARNING:Error training model:
+./data/processed/X_train_scaled.csv not found.:
+2026-03-15 22:16:34,725:main.py:<module>:INFO:Evaluating model:
+2026-03-15 22:16:34,725:main.py:<module>:WARNING:Error evaluating model:
+name 'train_time' is not defined:
+2026-03-15 22:21:12,459:main.py:<module>:INFO:Initializing full pipeline:
+2026-03-15 22:21:12,460:main.py:<module>:INFO:Loading, filtering and labeling data:
+2026-03-15 22:21:12,462:load_n_filter.py:load_and_filter_files:INFO:Converting 0 pcap files to csv
+:
+2026-03-15 22:21:12,462:load_n_filter.py:load_and_filter_files:INFO:
+0 pcap files labelled and saved to csv
+0 files could not be converted. Read terminal logs for details:
+2026-03-15 22:21:12,462:load_n_filter.py:load_and_filter_files:INFO:Merge set to True:
+2026-03-15 22:21:12,463:load_n_filter.py:load_and_filter_files:INFO:Merging 0 csv files...:
+2026-03-15 22:21:12,467:load_n_filter.py:load_and_filter_files:INFO:|| 0 csv files merged and saved to ./data/labelled ||:
+2026-03-15 22:21:12,468:main.py:<module>:INFO:Loading, filtering and labeling complete:
+2026-03-15 22:21:12,468:main.py:<module>:INFO:Preprocessing and splitting data:
+2026-03-15 22:21:12,472:main.py:<module>:WARNING:Error preprocessing and splitting data:
+[Errno 2] No such file or directory: './data/labelled/all_data_labelled.csv':
+2026-03-15 22:21:12,472:main.py:<module>:INFO:Training model:
+2026-03-15 22:21:12,504:main.py:<module>:WARNING:Error training model:
+./data/processed/X_train_scaled.csv not found.:
+2026-03-15 22:21:12,504:main.py:<module>:INFO:Evaluating model:
+2026-03-15 22:21:12,504:main.py:<module>:WARNING:Error evaluating model:
+name 'train_time' is not defined:
+2026-03-15 22:25:55,749:main.py:<module>:INFO:Initializing full pipeline:
+2026-03-15 22:25:55,749:main.py:<module>:INFO:Loading, filtering and labeling data:
+2026-03-15 22:25:55,759:load_n_filter.py:load_and_filter_files:INFO:Converting 40 pcap files to csv
+:
+2026-03-15 22:25:55,759:load_n_filter.py:load_and_filter_files:INFO:Coverting benign-dec.pcap to csv...:
+2026-03-15 22:25:55,999:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-1-dec.pcap to csv...:
+2026-03-15 22:25:56,028:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-2-dec.pcap to csv...:
+2026-03-15 22:25:56,049:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-3-dec.pcap to csv...:
+2026-03-15 22:25:56,072:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-4-dec.pcap to csv...:
+2026-03-15 22:25:56,089:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-5-dec.pcap to csv...:
+2026-03-15 22:25:56,113:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-1-dec.pcap to csv...:
+2026-03-15 22:25:56,136:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-2-dec.pcap to csv...:
+2026-03-15 22:25:56,162:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-3-dec.pcap to csv...:
+2026-03-15 22:25:56,192:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-4-dec.pcap to csv...:
+2026-03-15 22:25:56,215:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-1-dec.pcap to csv...:
+2026-03-15 22:25:56,232:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-2-dec.pcap to csv...:
+2026-03-15 22:25:56,253:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-4-dec.pcap to csv...:
+2026-03-15 22:25:56,271:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-5-dec.pcap to csv...:
+2026-03-15 22:25:56,294:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-1-dec.pcap to csv...:
+2026-03-15 22:25:56,320:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-2-dec.pcap to csv...:
+2026-03-15 22:25:56,339:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-3-dec.pcap to csv...:
+2026-03-15 22:25:56,373:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-4-dec.pcap to csv...:
+2026-03-15 22:25:56,405:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-1-dec.pcap to csv...:
+2026-03-15 22:25:56,429:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-2-dec.pcap to csv...:
+2026-03-15 22:25:56,451:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-3-dec.pcap to csv...:
+2026-03-15 22:25:56,479:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-4-dec.pcap to csv...:
+2026-03-15 22:25:56,505:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-1-dec.pcap to csv...:
+2026-03-15 22:25:56,534:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-2-dec.pcap to csv...:
+2026-03-15 22:25:56,555:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-3-dec.pcap to csv...:
+2026-03-15 22:25:56,586:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-4-dec.pcap to csv...:
+2026-03-15 22:25:56,629:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-5-dec.pcap to csv...:
+2026-03-15 22:25:56,656:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-6-dec.pcap to csv...:
+2026-03-15 22:25:56,699:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-1-dec.pcap to csv...:
+2026-03-15 22:25:56,727:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-2-dec.pcap to csv...:
+2026-03-15 22:25:56,751:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-3-dec.pcap to csv...:
+2026-03-15 22:25:56,794:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-4-dec.pcap to csv...:
+2026-03-15 22:25:56,832:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-5-dec.pcap to csv...:
+2026-03-15 22:25:56,857:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-6-dec.pcap to csv...:
+2026-03-15 22:25:56,872:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-1-dec.pcap to csv...:
+2026-03-15 22:25:56,896:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-2-dec.pcap to csv...:
+2026-03-15 22:25:56,912:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-3-dec.pcap to csv...:
+2026-03-15 22:25:56,936:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-4-dec.pcap to csv...:
+2026-03-15 22:25:56,963:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-5-dec.pcap to csv...:
+2026-03-15 22:25:56,991:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-6-dec.pcap to csv...:
+2026-03-15 22:25:57,025:load_n_filter.py:load_and_filter_files:INFO:
+0 pcap files labelled and saved to csv
+40 files could not be converted. Read terminal logs for details:
+2026-03-15 22:25:57,026:load_n_filter.py:load_and_filter_files:INFO:Merge set to True:
+2026-03-15 22:25:57,026:load_n_filter.py:load_and_filter_files:INFO:Merging 40 csv files...:
+2026-03-15 22:25:57,042:main.py:<module>:WARNING:Error loading, filtering and labeling data:
+[Errno 2] No such file or directory: './data/labelled/benign-dec.csv':
+2026-03-15 22:25:57,042:main.py:<module>:INFO:Preprocessing and splitting data:
+2026-03-15 22:25:57,042:main.py:<module>:WARNING:Error preprocessing and splitting data:
+[Errno 2] No such file or directory: './data/labelled/all_data_labelled.csv':
+2026-03-15 22:25:57,042:main.py:<module>:INFO:Training model:
+2026-03-15 22:25:57,102:main.py:<module>:WARNING:Error training model:
+./data/processed/X_train_scaled.csv not found.:
+2026-03-15 22:25:57,108:main.py:<module>:INFO:Evaluating model:
+2026-03-15 22:25:57,108:main.py:<module>:WARNING:Error evaluating model:
+name 'train_time' is not defined:
+2026-03-15 22:27:44,741:main.py:<module>:INFO:Initializing full pipeline:
+2026-03-15 22:27:44,742:main.py:<module>:INFO:Loading, filtering and labeling data:
+2026-03-15 22:27:44,743:load_n_filter.py:load_and_filter_files:INFO:Converting 40 pcap files to csv
+:
+2026-03-15 22:27:44,743:load_n_filter.py:load_and_filter_files:INFO:Coverting benign-dec.pcap to csv...:
+2026-03-15 22:27:44,760:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-1-dec.pcap to csv...:
+2026-03-15 22:27:44,777:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-2-dec.pcap to csv...:
+2026-03-15 22:27:44,790:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-3-dec.pcap to csv...:
+2026-03-15 22:27:44,804:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-4-dec.pcap to csv...:
+2026-03-15 22:27:44,822:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-5-dec.pcap to csv...:
+2026-03-15 22:27:44,838:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-1-dec.pcap to csv...:
+2026-03-15 22:27:44,868:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-2-dec.pcap to csv...:
+2026-03-15 22:27:44,894:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-3-dec.pcap to csv...:
+2026-03-15 22:27:44,919:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-4-dec.pcap to csv...:
+2026-03-15 22:27:44,973:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-1-dec.pcap to csv...:
+2026-03-15 22:27:45,019:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-2-dec.pcap to csv...:
+2026-03-15 22:27:45,039:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-4-dec.pcap to csv...:
+2026-03-15 22:27:45,060:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-5-dec.pcap to csv...:
+2026-03-15 22:27:45,076:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-1-dec.pcap to csv...:
+2026-03-15 22:27:45,092:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-2-dec.pcap to csv...:
+2026-03-15 22:27:45,115:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-3-dec.pcap to csv...:
+2026-03-15 22:27:45,138:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-4-dec.pcap to csv...:
+2026-03-15 22:27:45,169:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-1-dec.pcap to csv...:
+2026-03-15 22:27:45,192:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-2-dec.pcap to csv...:
+2026-03-15 22:27:45,214:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-3-dec.pcap to csv...:
+2026-03-15 22:27:45,223:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-4-dec.pcap to csv...:
+2026-03-15 22:27:45,246:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-1-dec.pcap to csv...:
+2026-03-15 22:27:45,268:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-2-dec.pcap to csv...:
+2026-03-15 22:27:45,289:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-3-dec.pcap to csv...:
+2026-03-15 22:27:45,308:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-4-dec.pcap to csv...:
+2026-03-15 22:27:45,339:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-5-dec.pcap to csv...:
+2026-03-15 22:27:45,378:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-6-dec.pcap to csv...:
+2026-03-15 22:27:45,404:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-1-dec.pcap to csv...:
+2026-03-15 22:27:45,437:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-2-dec.pcap to csv...:
+2026-03-15 22:27:45,469:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-3-dec.pcap to csv...:
+2026-03-15 22:27:45,498:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-4-dec.pcap to csv...:
+2026-03-15 22:27:45,533:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-5-dec.pcap to csv...:
+2026-03-15 22:27:45,591:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-6-dec.pcap to csv...:
+2026-03-15 22:27:45,615:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-1-dec.pcap to csv...:
+2026-03-15 22:27:45,640:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-2-dec.pcap to csv...:
+2026-03-15 22:27:45,679:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-3-dec.pcap to csv...:
+2026-03-15 22:27:45,715:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-4-dec.pcap to csv...:
+2026-03-15 22:27:45,742:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-5-dec.pcap to csv...:
+2026-03-15 22:27:45,778:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-6-dec.pcap to csv...:
+2026-03-15 22:27:45,822:load_n_filter.py:load_and_filter_files:INFO:
+0 pcap files labelled and saved to csv
+40 files could not be converted. Read terminal logs for details:
+2026-03-15 22:27:45,823:load_n_filter.py:load_and_filter_files:INFO:Merge set to True:
+2026-03-15 22:27:45,827:load_n_filter.py:load_and_filter_files:INFO:Merging 40 csv files...:
+2026-03-15 22:27:45,849:main.py:<module>:WARNING:Error loading, filtering and labeling data:
+[Errno 2] No such file or directory: './data/labelled/benign-dec.csv':
+2026-03-15 22:27:45,849:main.py:<module>:INFO:Preprocessing and splitting data:
+2026-03-15 22:27:45,853:main.py:<module>:WARNING:Error preprocessing and splitting data:
+[Errno 2] No such file or directory: './data/labelled/all_data_labelled.csv':
+2026-03-15 22:27:45,853:main.py:<module>:INFO:Training model:
+2026-03-15 22:27:45,918:main.py:<module>:WARNING:Error training model:
+./data/processed/X_train_scaled.csv not found.:
+2026-03-15 22:27:45,918:main.py:<module>:INFO:Evaluating model:
+2026-03-15 22:27:45,922:main.py:<module>:WARNING:Error evaluating model:
+name 'train_time' is not defined:
+2026-03-15 22:30:28,410:main.py:<module>:INFO:Initializing full pipeline:
+2026-03-15 22:30:28,410:main.py:<module>:INFO:Loading, filtering and labeling data:
+2026-03-15 22:30:28,413:load_n_filter.py:load_and_filter_files:INFO:Converting 40 pcap files to csv
+:
+2026-03-15 22:30:28,414:load_n_filter.py:load_and_filter_files:INFO:Coverting benign-dec.pcap to csv...:
+2026-03-15 22:30:30,191:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-1-dec.pcap to csv...:
+2026-03-15 22:30:30,379:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-2-dec.pcap to csv...:
+2026-03-15 22:30:30,559:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-3-dec.pcap to csv...:
+2026-03-15 22:30:30,955:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-4-dec.pcap to csv...:
+2026-03-15 22:30:31,157:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-5-dec.pcap to csv...:
+2026-03-15 22:30:31,432:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-1-dec.pcap to csv...:
+2026-03-15 22:30:31,699:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-2-dec.pcap to csv...:
+2026-03-15 22:30:31,873:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-3-dec.pcap to csv...:
+2026-03-15 22:30:32,069:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-4-dec.pcap to csv...:
+2026-03-15 22:30:32,256:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-1-dec.pcap to csv...:
+2026-03-15 22:30:32,440:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-2-dec.pcap to csv...:
+2026-03-15 22:30:32,610:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-4-dec.pcap to csv...:
+2026-03-15 22:30:32,742:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-5-dec.pcap to csv...:
+2026-03-15 22:30:32,964:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-1-dec.pcap to csv...:
+2026-03-15 22:30:33,158:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-2-dec.pcap to csv...:
+2026-03-15 22:30:33,361:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-3-dec.pcap to csv...:
+2026-03-15 22:30:33,532:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-4-dec.pcap to csv...:
+2026-03-15 22:30:33,698:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-1-dec.pcap to csv...:
+2026-03-15 22:30:33,884:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-2-dec.pcap to csv...:
+2026-03-15 22:30:34,103:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-3-dec.pcap to csv...:
+2026-03-15 22:30:34,448:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-4-dec.pcap to csv...:
+2026-03-15 22:30:34,634:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-1-dec.pcap to csv...:
+2026-03-15 22:30:34,831:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-2-dec.pcap to csv...:
+2026-03-15 22:30:35,016:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-3-dec.pcap to csv...:
+2026-03-15 22:30:35,204:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-4-dec.pcap to csv...:
+2026-03-15 22:30:35,385:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-5-dec.pcap to csv...:
+2026-03-15 22:30:35,573:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-6-dec.pcap to csv...:
+2026-03-15 22:30:35,811:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-1-dec.pcap to csv...:
+2026-03-15 22:30:36,112:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-2-dec.pcap to csv...:
+2026-03-15 22:30:36,331:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-3-dec.pcap to csv...:
+2026-03-15 22:30:36,499:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-4-dec.pcap to csv...:
+2026-03-15 22:30:36,676:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-5-dec.pcap to csv...:
+2026-03-15 22:30:36,879:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-6-dec.pcap to csv...:
+2026-03-15 22:30:37,074:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-1-dec.pcap to csv...:
+2026-03-15 22:30:37,288:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-2-dec.pcap to csv...:
+2026-03-15 22:30:37,483:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-3-dec.pcap to csv...:
+2026-03-15 22:30:37,701:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-4-dec.pcap to csv...:
+2026-03-15 22:30:37,890:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-5-dec.pcap to csv...:
+2026-03-15 22:30:38,094:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-6-dec.pcap to csv...:
+2026-03-15 22:30:38,295:load_n_filter.py:load_and_filter_files:INFO:
+0 pcap files labelled and saved to csv
+40 files could not be converted. Read terminal logs for details:
+2026-03-15 22:30:38,296:load_n_filter.py:load_and_filter_files:INFO:Merge set to True:
+2026-03-15 22:30:38,296:load_n_filter.py:load_and_filter_files:INFO:Merging 40 csv files...:
+2026-03-15 22:30:38,302:main.py:<module>:WARNING:Error loading, filtering and labeling data:
+[Errno 2] No such file or directory: './data/labelled/benign-dec.csv':
+2026-03-15 22:30:38,302:main.py:<module>:INFO:Preprocessing and splitting data:
+2026-03-15 22:30:38,302:main.py:<module>:WARNING:Error preprocessing and splitting data:
+[Errno 2] No such file or directory: './data/labelled/all_data_labelled.csv':
+2026-03-15 22:30:38,302:main.py:<module>:INFO:Training model:
+2026-03-15 22:30:38,349:main.py:<module>:WARNING:Error training model:
+./data/processed/X_train_scaled.csv not found.:
+2026-03-15 22:30:38,349:main.py:<module>:INFO:Evaluating model:
+2026-03-15 22:30:38,349:main.py:<module>:WARNING:Error evaluating model:
+name 'train_time' is not defined:
+2026-03-15 22:40:50,957:main.py:<module>:INFO:Initializing full pipeline:
+2026-03-15 22:40:50,957:main.py:<module>:INFO:Loading, filtering and labeling data:
+2026-03-15 22:40:50,960:load_n_filter.py:load_and_filter_files:INFO:Converting 40 pcap files to csv
+:
+2026-03-15 22:40:50,960:load_n_filter.py:load_and_filter_files:INFO:Coverting benign-dec.pcap to csv...:
+2026-03-15 23:37:54,246:load_n_filter.py:load_and_filter_files:INFO:Adding labels to benign-dec.csv...
+:
+2026-03-15 23:38:00,948:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-1-dec.pcap to csv...:
+2026-03-15 23:46:56,274:load_n_filter.py:load_and_filter_files:INFO:Adding labels to dos-synflooding-1-dec.csv...
+:
+2026-03-15 23:46:59,403:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-2-dec.pcap to csv...:
+2026-03-15 23:55:42,352:load_n_filter.py:load_and_filter_files:INFO:Adding labels to dos-synflooding-2-dec.csv...
+:
+2026-03-15 23:55:44,952:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-3-dec.pcap to csv...:
+2026-03-16 00:01:24,667:load_n_filter.py:load_and_filter_files:INFO:Adding labels to dos-synflooding-3-dec.csv...
+:
+2026-03-16 00:01:26,311:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-4-dec.pcap to csv...:
+2026-03-16 00:03:28,948:load_n_filter.py:load_and_filter_files:INFO:Adding labels to dos-synflooding-4-dec.csv...
+:
+2026-03-16 00:03:29,629:load_n_filter.py:load_and_filter_files:INFO:Coverting dos-synflooding-5-dec.pcap to csv...:
+2026-03-16 00:05:41,219:load_n_filter.py:load_and_filter_files:INFO:Adding labels to dos-synflooding-5-dec.csv...
+:
+2026-03-16 00:05:41,883:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-1-dec.pcap to csv...:
+2026-03-16 00:15:27,368:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-ackflooding-1-dec.csv...
+:
+2026-03-16 00:15:29,878:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-2-dec.pcap to csv...:
+2026-03-16 00:49:57,104:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-ackflooding-2-dec.csv...
+:
+2026-03-16 00:50:04,850:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-3-dec.pcap to csv...:
+2026-03-16 00:57:52,854:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-ackflooding-3-dec.csv...
+:
+2026-03-16 00:57:55,126:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-ackflooding-4-dec.pcap to csv...:
+2026-03-16 01:15:30,974:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-ackflooding-4-dec.csv...
+:
+2026-03-16 01:15:36,252:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-1-dec.pcap to csv...:
+2026-03-16 01:41:36,941:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-hostbruteforce-1-dec.csv...
+:
+2026-03-16 01:41:43,667:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-2-dec.pcap to csv...:
+2026-03-16 01:58:13,306:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-hostbruteforce-2-dec.csv...
+:
+2026-03-16 01:58:17,798:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-4-dec.pcap to csv...:
+2026-03-16 02:18:32,722:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-hostbruteforce-4-dec.csv...
+:
+2026-03-16 02:18:37,782:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-hostbruteforce-5-dec.pcap to csv...:
+2026-03-16 02:27:29,925:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-hostbruteforce-5-dec.csv...
+:
+2026-03-16 02:27:32,209:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-1-dec.pcap to csv...:
+2026-03-16 02:30:08,174:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-httpflooding-1-dec.csv...
+:
+2026-03-16 02:30:08,850:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-2-dec.pcap to csv...:
+2026-03-16 02:46:53,997:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-httpflooding-2-dec.csv...
+:
+2026-03-16 02:46:59,009:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-3-dec.pcap to csv...:
+2026-03-16 02:49:33,972:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-httpflooding-3-dec.csv...
+:
+2026-03-16 02:49:34,687:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-httpflooding-4-dec.pcap to csv...:
+2026-03-16 03:06:19,878:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-httpflooding-4-dec.csv...
+:
+2026-03-16 03:06:24,841:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-1-dec.pcap to csv...:
+2026-03-16 03:41:37,052:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-udpflooding-1-dec.csv...
+:
+2026-03-16 03:41:53,804:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-2-dec.pcap to csv...:
+2026-03-16 04:03:33,412:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-udpflooding-2-dec.csv...
+:
+2026-03-16 04:03:41,182:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-3-dec.pcap to csv...:
+2026-03-16 04:39:07,282:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-udpflooding-3-dec.csv...
+:
+2026-03-16 04:39:23,536:load_n_filter.py:load_and_filter_files:INFO:Coverting mirai-udpflooding-4-dec.pcap to csv...:
+2026-03-16 05:01:03,336:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mirai-udpflooding-4-dec.csv...
+:
+2026-03-16 05:01:11,182:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-1-dec.pcap to csv...:
+2026-03-16 05:11:51,867:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mitm-arpspoofing-1-dec.csv...
+:
+2026-03-16 05:11:55,074:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-2-dec.pcap to csv...:
+2026-03-16 05:17:23,644:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mitm-arpspoofing-2-dec.csv...
+:
+2026-03-16 05:17:25,254:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-3-dec.pcap to csv...:
+2026-03-16 05:22:59,421:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mitm-arpspoofing-3-dec.csv...
+:
+2026-03-16 05:23:01,169:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-4-dec.pcap to csv...:
+2026-03-16 05:26:57,006:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mitm-arpspoofing-4-dec.csv...
+:
+2026-03-16 05:26:57,986:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-5-dec.pcap to csv...:
+2026-03-16 05:30:58,812:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mitm-arpspoofing-5-dec.csv...
+:
+2026-03-16 05:30:59,815:load_n_filter.py:load_and_filter_files:INFO:Coverting mitm-arpspoofing-6-dec.pcap to csv...:
+2026-03-16 05:35:06,235:load_n_filter.py:load_and_filter_files:INFO:Adding labels to mitm-arpspoofing-6-dec.csv...
+:
+2026-03-16 05:35:07,281:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-1-dec.pcap to csv...:
+2026-03-16 05:40:36,857:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-hostport-1-dec.csv...
+:
+2026-03-16 05:40:38,436:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-2-dec.pcap to csv...:
+2026-03-16 05:47:41,498:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-hostport-2-dec.csv...
+:
+2026-03-16 05:47:43,382:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-3-dec.pcap to csv...:
+2026-03-16 05:50:09,242:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-hostport-3-dec.csv...
+:
+2026-03-16 05:50:09,939:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-4-dec.pcap to csv...:
+2026-03-16 05:51:18,959:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-hostport-4-dec.csv...
+:
+2026-03-16 05:51:19,304:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-5-dec.pcap to csv...:
+2026-03-16 05:52:06,038:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-hostport-5-dec.csv...
+:
+2026-03-16 05:52:06,240:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-hostport-6-dec.pcap to csv...:
+2026-03-16 05:53:15,509:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-hostport-6-dec.csv...
+:
+2026-03-16 05:53:15,794:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-1-dec.pcap to csv...:
+2026-03-16 06:07:38,241:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-portos-1-dec.csv...
+:
+2026-03-16 06:07:42,020:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-2-dec.pcap to csv...:
+2026-03-16 06:17:04,112:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-portos-2-dec.csv...
+:
+2026-03-16 06:17:06,577:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-3-dec.pcap to csv...:
+2026-03-16 06:29:52,310:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-portos-3-dec.csv...
+:
+2026-03-16 06:29:55,676:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-4-dec.pcap to csv...:
+2026-03-16 06:30:29,658:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-portos-4-dec.csv...
+:
+2026-03-16 06:30:29,822:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-5-dec.pcap to csv...:
+2026-03-16 06:32:07,598:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-portos-5-dec.csv...
+:
+2026-03-16 06:32:08,083:load_n_filter.py:load_and_filter_files:INFO:Coverting scan-portos-6-dec.pcap to csv...:
+2026-03-16 06:34:24,156:load_n_filter.py:load_and_filter_files:INFO:Adding labels to scan-portos-6-dec.csv...
+:
+2026-03-16 06:34:24,805:load_n_filter.py:load_and_filter_files:INFO:
+40 pcap files labelled and saved to csv
+0 files could not be converted. Read terminal logs for details:
+2026-03-16 06:34:24,805:load_n_filter.py:load_and_filter_files:INFO:Merge set to True:
+2026-03-16 06:34:24,805:load_n_filter.py:load_and_filter_files:INFO:Merging 40 csv files...:
+2026-03-16 06:36:59,478:load_n_filter.py:load_and_filter_files:INFO:|| 40 csv files merged and saved to ./data/labelled ||:
+2026-03-16 06:36:59,494:main.py:<module>:INFO:Loading, filtering and labeling complete:
+2026-03-16 06:36:59,496:main.py:<module>:INFO:Preprocessing and splitting data:
+2026-03-16 06:39:57,223:main.py:<module>:INFO:Preprocessing and splitting complete:
+2026-03-16 06:39:57,223:main.py:<module>:INFO:Training model:
+2026-03-16 06:40:21,241:main.py:<module>:INFO:Model training complete:
+2026-03-16 06:40:21,241:main.py:<module>:INFO:Evaluating model:
+2026-03-16 06:40:25,954:main.py:<module>:INFO:Model evaluation complete:
