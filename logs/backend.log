@@ -43447,3 +43447,6 @@
 2026-03-16 07:59:41,754:app.py:upload_file:INFO:Deleted file: C:\Users\HES\Downloads\ids_project-main\ids_project-main\temp\scan-hostport-5-dec.pcap:
 2026-03-16 07:59:41,754:app.py:upload_file:INFO:Deleted file: C:\Users\HES\Downloads\ids_project-main\ids_project-main\temp\scan-hostport-5-decunprocessed.csv:
 2026-03-16 07:59:41,765:app.py:upload_file:INFO:File 'scan-hostport-5-dec.pcap' uploaded and saved to: C:\Users\HES\Downloads\ids_project-main\ids_project-main\temp\scan-hostport-5-dec.pcap:
+2026-03-16 11:28:30,915:app.py:<module>:INFO:API service running:
+2026-03-16 11:30:01,594:app.py:upload_file:INFO:Deleted file: C:\Users\HES\Downloads\ids_project-main\ids_project-main\temp\scan-hostport-5-dec.pcap:
+2026-03-16 11:30:01,601:app.py:upload_file:INFO:File 'scan-hostport-5-dec.pcap' uploaded and saved to: C:\Users\HES\Downloads\ids_project-main\ids_project-main\temp\scan-hostport-5-dec.pcap:
