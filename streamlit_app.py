@@ -35,8 +35,8 @@ reversed_label = {value: key for key, value in label_mapping.items()}
 temp_folder = os.path.join(os.path.dirname(__file__), "temp")
 os.makedirs(temp_folder, exist_ok=True)
 
-server: str = 'https://13.217.99.239:8000' # Deployment
-# server: str = 'http://127.0.0.1:8000' # Local
+server: str = 'http://13.217.99.239:8000' # Deployment
+#server: str = 'http://127.0.0.1:8000' # Local
 
 
 
